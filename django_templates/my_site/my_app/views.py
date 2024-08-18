@@ -12,7 +12,7 @@ def variable_view(request):
         'first_name': 'rosalind',
         'last_name': 'franklin',
         'some_list': [1,2,3],
-        'user_logged_in': False
+        'user_logged_in': True
     }
     
     

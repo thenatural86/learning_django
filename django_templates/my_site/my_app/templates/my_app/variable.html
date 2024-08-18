@@ -6,5 +6,8 @@
   </head>
   <body>
     <h1>VARIABLE.HTML</h1>
+    {% if user_logged_in%}
+    <h1>Welcome Back {{first_name}}</h1>
+    {% endif %}
   </body>
 </html>
